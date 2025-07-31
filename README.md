@@ -78,7 +78,7 @@ Shellcode must be properly encoded and null-free depending on delivery context.
 Security Researcher & LazyOwn Red Team Developer
 
 # Disclaimer
-📌 This tool is designed for educational and ethical use only. Unauthorized use of this software to exploit systems without permission is illegal and unethical. The author assumes no liability for misuse.
+📌 This tool is designed for educational and ethical use only. Unauthorized use of this software to exploit systems without permission is illegal and unethical. The authors assumes no liability for misuse.
 
 📌 This library was made for academic purposes only. The authors are not responsible for what is given to this library and therefore we are exempt from any liability arising from the misuse of it.
 
