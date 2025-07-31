@@ -77,14 +77,16 @@ Shellcode must be properly encoded and null-free depending on delivery context.
 👤 grisuno
 Security Researcher & LazyOwn Red Team Developer
 
-Disclaimer
+# Disclaimer
 📌 This tool is designed for educational and ethical use only. Unauthorized use of this software to exploit systems without permission is illegal and unethical. The author assumes no liability for misuse.
+
+📌 This library was made for academic purposes only. The authors are not responsible for what is given to this library and therefore we are exempt from any liability arising from the misuse of it.
 
 Use responsibly and in compliance with all applicable laws and regulations.
 
-License
+# License
 
-GPLV3
+**GPLV3**
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
