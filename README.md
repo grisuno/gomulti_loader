@@ -23,33 +23,33 @@ amd64 (x86_64) only
 OS: Linux or Windows
 Build Instructions
 🔹 For Linux:
-bash´´´
+```bash
 GOOS=linux GOARCH=amd64 go build -o loader_linux
-´´´
+```
 🔹 For Windows:
 Ensure you have mingw-w64 installed (e.g., x86_64-w64-mingw32-gcc):
 
-bash´´´
+```bash
 GOOS=windows GOARCH=amd64 CGO_ENABLED=1 CC=x86_64-w64-mingw32-gcc go build -o loader_windows.exe
-´´´
+```
 💡 Note: CGO is required for Windows due to use of kernel32.dll functions. 
 
 🧹 Clean Build Artifacts:
-bash´´´
+```bash
 rm -f loader_linux loader_windows.exe
-´´´
+```
 Usage
-bash'''
+```bash
 # On Linux
 ./loader_linux -shellcode /path/to/shellcode.txt
 
 # On Windows
 loader_windows.exe -shellcode C:\path\to\shellcode.txt
-´´´
+```
 Example Shellcode File Format:
-text'''
+```text
 \x6a\x29\x58\x99\x6a\x02\x5f\x6a\x01\x5e\x0f\x05...
-´´´
+```
 Any text file containing shellcode in \x## format is supported. The parser extracts all valid \x## sequences regardless of formatting or line breaks. 
 
 How It Works
