@@ -27,16 +27,18 @@ The loader reads shellcode from a text file, allocates executable memory, copies
 
 
 # Features
-✅ Cross-platform support:
-Linux: Uses mmap() for executable memory allocation.
-Windows: Uses VirtualAlloc() with PAGE_EXECUTE_READWRITE.
-📂 Flexible input: Parses shellcode in \x## format from plaintext files.
-🔧 Simple CLI interface: Accepts path to shellcode file via command-line flag.
-⚙️ Build automation: Makefile-style build instructions included for both platforms.
-Supported Architectures
-amd64 (x86_64) only
-OS: Linux or Windows
-Build Instructions
+- ✅ Cross-platform support:
+- Linux: Uses mmap() for executable memory allocation.
+- Windows: Uses VirtualAlloc() with PAGE_EXECUTE_READWRITE.
+- 📂 Flexible input: Parses shellcode in \x## format from plaintext files.
+- 🔧 Simple CLI interface: Accepts path to shellcode file via command-line flag.
+- ⚙️ Build automation: Makefile-style build instructions included for both platforms.
+
+## Supported Architectures
+- amd64 (x86_64) only
+- OS: Linux or Windows
+- 
+## Build Instructions
 
 <img width="631" height="793" alt="image" src="https://github.com/user-attachments/assets/e638ec50-5216-4c88-a5ef-4e083086eace" />
 
