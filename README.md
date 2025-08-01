@@ -7,14 +7,16 @@ go run . -shellcode shellcode_linux.txt
 
 <img width="1721" height="493" alt="image" src="https://github.com/user-attachments/assets/88face9b-164a-49ca-b7f4-5c68130362d7" />
 
-
-## Author: grisuno
 ## Language: Go (with CGO)
+
 <img width="311" height="162" alt="image" src="https://github.com/user-attachments/assets/53798223-71ec-4f3e-9a30-1969a59d9bfb" />
+
 ## Platforms: Linux & Windows (64-bit)
+
 <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/f8ef6719-fdb1-47e8-b0cb-080e8ee5e2d0" />
 
 # Overview
+
 <img width="998" height="825" alt="image" src="https://github.com/user-attachments/assets/d643596a-e879-488a-9f89-ace1ecd11581" />
 
 This project is a multi-platform shellcode loader written in Go using CGO to interface with native system calls. It supports both Linux and Windows operating systems and can execute raw shellcode from a file formatted with \x## byte notation (e.g., \x48\x31\xc0).
@@ -159,6 +161,23 @@ The GPL v3 license provides the following fundamental freedoms as outlined in
 - Freedom to receive source code or obtain it on request
 - Freedom to change the software or use pieces in new programs
 - Freedom to know these rights are guaranteed
+
+#Links
+
+-    [*] Welcome to the LazyOwn Framework [;,;] release/0.2.47
+-    [*] interactive sHell! Type ? to list commands
+-    [!] Please do not use in military or secret service organizations,
+-    [!] or for illegal purposes (this is non-binding,
+-    [!] these *** ignore laws and ethics anyway)
+-    [+] Github: https://github.com/grisuno/LazyOwn
+-    [+] Web: https://grisuno.github.io/LazyOwn/
+-    [+] Reddit: https://www.reddit.com/r/LazyOwn/
+-    [+] Facebook: https://web.facebook.com/profile.php?id=61560596232150
+-    [+] HackTheBox: https://app.hackthebox.com/teams/overview/6429 
+-    [+] Grisun0: https://app.hackthebox.com/users/1998024
+-    [+] Patreon: https://patreon.com/LazyOwn 
+-    [↙] Download: https://github.com/grisuno/LazyOwn/archive/refs/tags/release/0.2.47.tar.gz 
+
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
