@@ -34,7 +34,7 @@ The loader reads shellcode from a text file, allocates executable memory, copies
 - 🔧 Simple CLI interface: Accepts path to shellcode file via command-line flag.
 - ⚙️ Build automation: Makefile-style build instructions included for both platforms.
 
-<img width="409" height="392" alt="image" src="https://github.com/user-attachments/assets/81d0411a-629b-486c-9ce4-3389eb0384be" />
+<img width="631" height="793" alt="image" src="https://github.com/user-attachments/assets/e638ec50-5216-4c88-a5ef-4e083086eace" />
 
 ## Supported Architectures
 - amd64 (x86_64) only
@@ -74,8 +74,8 @@ Usage
 # On Windows
 loader_windows.exe -shellcode C:\path\to\shellcode.txt
 ```
-<img width="631" height="793" alt="image" src="https://github.com/user-attachments/assets/e638ec50-5216-4c88-a5ef-4e083086eace" />
 
+<img width="409" height="392" alt="image" src="https://github.com/user-attachments/assets/81d0411a-629b-486c-9ce4-3389eb0384be" />
 <img width="1746" height="529" alt="image" src="https://github.com/user-attachments/assets/97fc7722-61bf-4090-a92d-ea465bb52eba" />
 
 
