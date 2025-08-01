@@ -34,15 +34,13 @@ The loader reads shellcode from a text file, allocates executable memory, copies
 - 🔧 Simple CLI interface: Accepts path to shellcode file via command-line flag.
 - ⚙️ Build automation: Makefile-style build instructions included for both platforms.
 
+<img width="409" height="392" alt="image" src="https://github.com/user-attachments/assets/81d0411a-629b-486c-9ce4-3389eb0384be" />
 
 ## Supported Architectures
 - amd64 (x86_64) only
 - OS: Linux or Windows
  
 ## Build Instructions
-
-<img width="631" height="793" alt="image" src="https://github.com/user-attachments/assets/e638ec50-5216-4c88-a5ef-4e083086eace" />
-
 
 🔹 For Linux:
 ```bash
@@ -76,6 +74,11 @@ Usage
 # On Windows
 loader_windows.exe -shellcode C:\path\to\shellcode.txt
 ```
+<img width="631" height="793" alt="image" src="https://github.com/user-attachments/assets/e638ec50-5216-4c88-a5ef-4e083086eace" />
+
+<img width="1746" height="529" alt="image" src="https://github.com/user-attachments/assets/97fc7722-61bf-4090-a92d-ea465bb52eba" />
+
+
 Example Shellcode File Format:
 ```text
 \x6a\x29\x58\x99\x6a\x02\x5f\x6a\x01\x5e\x0f\x05...
@@ -166,7 +169,7 @@ The GPL v3 license provides the following fundamental freedoms as outlined in
 - Freedom to know these rights are guaranteed
 
 # Links
-
+-    [+] Shorts: https://www.youtube.com/shorts/kPZvVV_RNIE
 -    [+] Deepwiki: https://deepwiki.com/grisuno/gomulti_loader/1-overview
 -    [+] Github: https://github.com/grisuno/LazyOwn
 -    [+] Web: https://grisuno.github.io/LazyOwn/
