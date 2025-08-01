@@ -34,10 +34,11 @@ The loader reads shellcode from a text file, allocates executable memory, copies
 - 🔧 Simple CLI interface: Accepts path to shellcode file via command-line flag.
 - ⚙️ Build automation: Makefile-style build instructions included for both platforms.
 
+
 ## Supported Architectures
 - amd64 (x86_64) only
 - OS: Linux or Windows
-- 
+ 
 ## Build Instructions
 
 <img width="631" height="793" alt="image" src="https://github.com/user-attachments/assets/e638ec50-5216-4c88-a5ef-4e083086eace" />
@@ -164,7 +165,7 @@ The GPL v3 license provides the following fundamental freedoms as outlined in
 - Freedom to change the software or use pieces in new programs
 - Freedom to know these rights are guaranteed
 
-#Links
+# Links
 
 -    [*] Welcome to the LazyOwn Framework [;,;] release/0.2.47
 -    [*] interactive sHell! Type ? to list commands
