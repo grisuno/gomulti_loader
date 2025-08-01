@@ -167,11 +167,7 @@ The GPL v3 license provides the following fundamental freedoms as outlined in
 
 # Links
 
-[*] Welcome to the LazyOwn Framework [;,;] release/0.2.47
-[*] interactive sHell! Type ? to list commands
-[!] Please do not use in military or secret service organizations,
-[!] or for illegal purposes (this is non-binding,
-[!] these *** ignore laws and ethics anyway)
+-    [+] Deepwiki: https://deepwiki.com/grisuno/gomulti_loader/1-overview
 -    [+] Github: https://github.com/grisuno/LazyOwn
 -    [+] Web: https://grisuno.github.io/LazyOwn/
 -    [+] Reddit: https://www.reddit.com/r/LazyOwn/
