@@ -171,7 +171,7 @@ The GPL v3 license provides the following fundamental freedoms as outlined in
 
 
 # Links
--    [+] **CGOblin** the big brother of **gomulti_loader**: [https://www.youtube.com/shorts/kPZvVV_RNIE](https://github.com/grisuno/cgoblin)
+-    [+] **CGOblin** the big brother of **gomulti_loader**: https://github.com/grisuno/cgoblin
 -    [+] Shorts: https://www.youtube.com/shorts/kPZvVV_RNIE
 -    [+] Deepwiki: https://deepwiki.com/grisuno/gomulti_loader/1-overview
 -    [+] Github: https://github.com/grisuno/LazyOwn
