@@ -168,7 +168,10 @@ The GPL v3 license provides the following fundamental freedoms as outlined in
 - Freedom to change the software or use pieces in new programs
 - Freedom to know these rights are guaranteed
 
+
+
 # Links
+-    [+] **CGOblin** the big brother of **gomulti_loader**: [https://www.youtube.com/shorts/kPZvVV_RNIE](https://github.com/grisuno/cgoblin)
 -    [+] Shorts: https://www.youtube.com/shorts/kPZvVV_RNIE
 -    [+] Deepwiki: https://deepwiki.com/grisuno/gomulti_loader/1-overview
 -    [+] Github: https://github.com/grisuno/LazyOwn
