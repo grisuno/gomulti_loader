@@ -181,7 +181,7 @@ The GPL v3 license provides the following fundamental freedoms as outlined in
 -    [+] HackTheBox: [https://app.hackthebox.com/teams/overview/6429 ](https://app.hackthebox.com/teams/overview/6429 )
 -    [+] Grisun0: [https://app.hackthebox.com/users/1998024](https://app.hackthebox.com/users/1998024)
 -    [+] Patreon: [https://patreon.com/LazyOwn ](https://patreon.com/LazyOwn )
--    [↙] Download: [https://github.com/grisuno/LazyOwn/archive/refs/tags/release/0.2.47.tar.gz ](https://github.com/grisuno/LazyOwn/archive/refs/tags/release/0.2.47.tar.gz )
+-    [↙] Download: [https://github.com/grisuno/LazyOwn/archive/refs/tags/release/0.2.47.tar.gz ](https://github.com/grisuno/LazyOwn/archive/refs/tags/release/0.2.58.tar.gz )
 
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
