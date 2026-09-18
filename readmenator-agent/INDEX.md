@@ -1,0 +1,9 @@
+# Index
+
+| File | Purpose | Subsystem | Symbols |
+|------|---------|-----------|---------|
+| `app.py` | app.py  Autor: Gris Iscomeback Correo electrónico: grisiscomeback[at]gmail[dot]c | root | 0 |
+| `install.sh` | - | root | 0 |
+| `loader_linux.go` | go:build linux | root | 2 |
+| `loader_windows.go` | go:build windows | root | 2 |
+| `main.go` | - | root | 1 |
