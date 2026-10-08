@@ -11,7 +11,7 @@
 
 **Total Files Parsed:** 5 | **Total Symbols Extracted:** 5 | **Total Imports:** 15
 
-<!-- ranking_model: v1.0 | weights: {ppr:0.45,auth:0.2,test:0.15,doc:0.1,fresh:0.1} | alpha:0.85 | commit:1e0fd0b | date:2026-07-18 -->
+<!-- ranking_model: v1.0 | weights: {ppr:0.45,auth:0.2,test:0.15,doc:0.1,fresh:0.1} | alpha:0.85 | commit:05a4468 | date:2026-07-18 -->
 
 
 ## Table of Contents
@@ -24,13 +24,12 @@
 6. [Hotspot Analysis](#hotspot-analysis)
 7. [Change Impact Analysis](#change-impact-analysis)
 8. [Suggested Linting Rules](#suggested-linting-rules)
-9. [Concept Graph](#concept-graph)
-10. [Orphans](#orphans)
-11. [Query Recipes](#query-recipes)
-12. [Structural Knowledge Map](#structural-knowledge-map)
-13. [UML Class Diagram](#uml-class-diagram)
-14. [Code Property Graph](#code-property-graph)
-15. [Architecture Reference](#architecture-reference)
+9. [Orphans](#orphans)
+10. [Query Recipes](#query-recipes)
+11. [Structural Knowledge Map](#structural-knowledge-map)
+12. [UML Class Diagram](#uml-class-diagram)
+13. [Code Property Graph](#code-property-graph)
+14. [Architecture Reference](#architecture-reference)
     - [GO (3 files)](#go-3-files)
     - [PY (1 files)](#py-1-files)
     - [SH (1 files)](#sh-1-files)
@@ -129,36 +128,6 @@ Files ranked by combined complexity (symbol count) and centrality (connection co
 | `loader_windows.go` | 1.000 | 1.000 | 1.000 | 2 | 6 |
 | `install.sh` | 0.000 | 0.000 | 0.000 | 0 | 0 |
 | `main.go` | 0.500 | 0.500 | 0.500 | 1 | 3 |
-
----
-
-## Concept Graph
-
-Semantic second-brain layer: nouns are concept nodes, verbs are edges. Each noun maps atomically to a file set (EXTRACTED); each verb aggregates structural imports, calls, and inherits into consumes, invokes, extends, depends_on, or bridges (INFERRED).
-
-**6 concepts, 0 relations.**
-
-| Concept | Files | Mentions |
-|---------|-------|----------|
-| `loader` | 2 | 6 |
-| `build` | 2 | 2 |
-| `execute` | 2 | 2 |
-| `file` | 2 | 2 |
-| `read` | 2 | 2 |
-| `shellcode` | 2 | 2 |
-
-### Dialectic Prompts
-
-- Thesis: `build` centralizes 2 files; Antithesis: `execute` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `build` centralizes 2 files; Antithesis: `file` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `build` centralizes 2 files; Antithesis: `loader` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `build` centralizes 2 files; Antithesis: `read` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `build` centralizes 2 files; Antithesis: `shellcode` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `execute` centralizes 2 files; Antithesis: `file` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `execute` centralizes 2 files; Antithesis: `loader` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `execute` centralizes 2 files; Antithesis: `read` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `execute` centralizes 2 files; Antithesis: `shellcode` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `file` centralizes 2 files; Antithesis: `loader` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
 
 ---
 

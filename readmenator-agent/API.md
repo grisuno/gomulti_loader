@@ -1,12 +1,22 @@
 # API
 
 ## loader_linux.go
-- `executeLoader` (function) `loader_linux.go:29` `func executeLoader(`
-- `readShellcodeFromFile` (function) `loader_linux.go:49` `func readShellcodeFromFile(`
+
+### executeLoader (function) `func executeLoader(`
+- Defined: `loader_linux.go:29`
+
+### readShellcodeFromFile (function) `func readShellcodeFromFile(`
+- Defined: `loader_linux.go:49`
 
 ## loader_windows.go
-- `executeLoader` (function) `loader_windows.go:29` `func executeLoader(`
-- `readShellcodeFromFile` (function) `loader_windows.go:49` `func readShellcodeFromFile(`
+
+### executeLoader (function) `func executeLoader(`
+- Defined: `loader_windows.go:29`
+
+### readShellcodeFromFile (function) `func readShellcodeFromFile(`
+- Defined: `loader_windows.go:49`
 
 ## main.go
-- `main` (function) `main.go:9` `func main(`
+
+### main (function) `func main(`
+- Defined: `main.go:9`
